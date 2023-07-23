@@ -97,6 +97,7 @@
     width: 70%;
     grid-template-rows: repeat(3, 100px);
     gap: 10px;
+    background-color: red;
   }
   .gallery-wrap img {
     width: 100%;
