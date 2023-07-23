@@ -93,11 +93,20 @@
 
 /*Mobile View*/
 @media screen and (max-width: 576px) {
+  .pro-wrap {
+  }
+  .pro-wrap img {
+    width: 120px;
+  }
+  .pro-data > div {
+    min-width: 70px;
+    padding: 10px 8px;
+  }
   .gallery-wrap {
     width: 70%;
     grid-template-rows: repeat(3, 100px);
     gap: 10px;
-    background-color: red;
+    margin-top: 0;
   }
   .gallery-wrap img {
     width: 100%;
